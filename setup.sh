@@ -60,3 +60,10 @@ useradd -m lod && echo -e "lod:lod" | chpasswd lod
 usermod -c "Hvězdná Loď" lod
 
 # --------------------------------
+
+# Set Time and Date
+ln -sf /usr/share/zoneinfo/Europe/Prague /etc/localtime
+
+# --------------------------------
+
+
